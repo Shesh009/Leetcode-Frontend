@@ -1,0 +1,213 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: grid;
+  grid-template-rows: 1fr auto;
+}
+
+.rankings-table{
+  margin: 4rem 0 0 5rem;
+  text-align: center;
+  border: 1px solid black;
+  width: 80%;
+  border-radius: 1rem;
+}
+
+.table-heading{
+  text-align: center;
+  /* margin: 2rem; */
+  color: #780116;
+  font-weight: 700;
+}
+
+.head{
+  margin-top: 2rem;
+}
+
+.head1{
+  margin-bottom: 2rem;
+}
+
+.header{
+  background-color: #110B11;
+  margin-top: 0px;
+  margin-bottom: 3rem;
+  display: flex;
+  align-items: center;
+}
+
+.profile-page{
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  justify-content: left;
+  margin: 2rem;
+}
+
+.div1{
+  width: 30%;
+  margin-right: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.detail-card{
+  min-width: 80%;
+  padding: 5%;
+  margin: 2rem;
+  text-align: center;
+  border: 0.1rem black solid;
+  border-radius: 1rem;
+}
+
+.profile-image{
+  border-radius: 2rem;
+  margin-bottom: 1rem;
+  border: 0.1rem black solid;
+}
+
+h5{
+  margin: 1rem;
+}
+
+
+.div2{
+  align-items: top;
+  width: 70%;
+}
+
+.score-card{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem;
+    border-radius: 1rem;
+    width: 100%;
+    text-align: center;
+}
+
+.cards{
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.skills-section {
+  width: 300px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 0.1rem solid black;
+  /* color: #fff; */
+  font-family: Arial, sans-serif;
+}
+
+.skills-category {
+  margin-bottom: 15px;
+}
+
+.skills-category h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #ff5555;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.skill-tag {
+  background-color: #333;
+  border-radius: 20px;
+  padding: 5px 10px;
+  font-size: 14px;
+  color: white;
+}
+
+.skill-count {
+  margin-left: 5px;
+  color: white;
+}
+
+
+.submission{
+  margin-top: 3rem;
+}
+
+.icons{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.github,.linkedin{
+  max-height: 2rem;
+  margin-top: 1rem;
+}
+
+.loading-spinner{
+  margin-top: 16rem;
+  text-align: center;
+  align-items: center;
+  justify-self: center;
+}
+
+.header-image{
+  height: 3rem;
+  margin: 0.3rem 0 0 1rem;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  color: white;
+  font-weight: 600;
+}
+
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10rem;
+  text-align: center;
+  font-size: 1.5rem;
+  background-color: #BDDBD0;
+  height: 5rem;
+}
+
+form{
+  width: 30%;
+  border: 0.5px solid black;
+  border-radius: 1.5rem;
+  padding: 2rem;
+  margin: 2rem 0 0 27rem;
+  height: 20rem;
+}
+
+input{
+  margin: 2rem 0 2rem 0;
+}
+
+.error-message{
+  text-align: center;
+  margin-top: 1.5rem;
+  color: red;
+}
+
+.nodata{
+  text-align: center;
+  color: Red;
+  margin-top: 3rem;
+}
+
+.nodata-img{
+  max-height: 10rem;
+}
+
