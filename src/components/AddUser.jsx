@@ -21,7 +21,6 @@ const AddUser = () => {
       });
 
       if (response.ok) {
-        console.log("User added successfully!");
         usernameRef.current.value = "";
         navigate("/");
       } else {
