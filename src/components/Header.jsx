@@ -11,7 +11,7 @@ const Header = () => {
         className="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
       >
         <img
-          src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png"
+          src="https://upload.wikimedia.org/wikipedia/commons/8/8e/LeetCode_Logo_1.png"
           alt="Lee"
           className="header-image"
         />
